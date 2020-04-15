@@ -1,5 +1,7 @@
 # OCCTechnicalAssessment
 
+Calculate and return score for all the names in a given file.
+
 ## How to run this code
 
 #### Execute following command
