@@ -1,3 +1,5 @@
+package main;
+
 import java.io.*;
 
 public class FileUtil {
@@ -11,7 +13,7 @@ public class FileUtil {
             while ((line = br.readLine()) != null) {
                 stringBuilder.append(line).append("\n");
             }
-        }catch (IOException e) {
+        }catch (Exception e) {
             e.printStackTrace();
         } finally {
             try {

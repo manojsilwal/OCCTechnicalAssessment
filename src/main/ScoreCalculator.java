@@ -1,8 +1,11 @@
+package main;
+
 import java.util.List;
 
 public class ScoreCalculator implements ScoreComputable {
     @Override
     public int calculateEachScore(Person person) {
+        //Assumption
         if(person == null){
             return 0;
         }
@@ -16,6 +19,10 @@ public class ScoreCalculator implements ScoreComputable {
 
     @Override
     public long calculateTotalScore(List<Person> personList) {
+        //Assumption
+        if(personList == null){
+            return 0;
+        }
         int totalScore = 0;
         int eachScoreTotal;
         for (int i=0;i<personList.size();i++){

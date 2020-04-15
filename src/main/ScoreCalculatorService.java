@@ -1,11 +1,13 @@
+package main;
+
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class ScoreCalculatorService {
-    public ScoreComputable scoreComputable;
-    public Comparator<Person> comparator;
+    private ScoreComputable scoreComputable;
+    private Comparator<Person> comparator;
 
     public ScoreCalculatorService(ScoreComputable scoreComputable, Comparator<Person> comparator){
         this.scoreComputable = scoreComputable;
