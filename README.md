@@ -10,8 +10,8 @@ Calculate and return score for all the names in a given file.
 
 2. cd OCCTechnicalAssessment/src 
 
-3. javac *.java
+3. javac main/*.java
 
-4. jar cvfm JarName.jar Manifest.txt *.class
+4. jar cvfm JarName.jar Manifest.txt main/*.class
 
 5. java -jar JarName.jar "absolute path to Name-list-file"
